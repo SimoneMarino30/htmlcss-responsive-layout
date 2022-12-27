@@ -3,6 +3,7 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .clearfix::after {
@@ -10,3 +11,107 @@
 	clear: both;
 	display: table;
 }
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+	display: flex;
+}
+
+.jc-center {
+	display: flex;
+	justify-content: center;
+}
+
+.ai-flex-end {
+	display: flex;
+	align-items: flex-end;
+}
+
+.col-70 {
+	width: 70%;
+	padding: 0 15px;
+}
+
+.col-50 {
+	width: 50%;
+	padding: 0 15px;
+}
+
+.col-40 {
+	width: 40%;
+	padding: 0 15px;
+}
+
+.col-30 {
+	width: 30%;
+	padding: 0 15px;
+}
+
+.centerize {
+	border: 2px dashed darkblue;
+	text-align: center;
+}
+
+.font-50 {
+	font-size: 5rem;
+}
+
+.font-40 {
+	font-size: 4rem;
+}
+
+.font-35 {
+	font-size: 3.5rem;
+
+}
+.font-30 {
+	font-size: 3rem;
+}
+
+
+.font-20 {
+	font-size: 2rem;
+}
+
+.font-15 {
+	font-size: 1.5rem;
+}
+
+.font-12 {
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.font-10 {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+
+/* FONT WEIGHT */
+
+.weight-7 {
+	font-weight: 700;
+	
+}
+
+.weight-9 {
+	font-weight: 900;
+
+}
+
+
+.button {
+	margin-top: 2rem;
+	border-radius: 30px;
+	border: none;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
